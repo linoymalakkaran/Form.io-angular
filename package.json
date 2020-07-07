@@ -36,7 +36,7 @@
     "@nebular/auth": "4.1.2",
     "@nebular/eva-icons": "4.1.2",
     "@nebular/security": "4.1.2",
-    "@nebular/theme": "4.1.2",
+    "@nebular/theme": "^5.1.0",
     "adm-zip": "^0.4.16",
     "angular-formio": "^4.9.0",
     "angular-split": "^3.0.3",
