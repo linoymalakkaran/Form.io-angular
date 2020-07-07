@@ -93,11 +93,16 @@
             <nb-card>
               <nb-card-body>
                 <form-builder
-                  [options]="options"
                   (change)="onChange($event)"
                   #formbuilder
                   [form]="form.serviceform.schema"
                 ></form-builder>
+                <!-- <form-builder
+                  [options]="options"
+                  (change)="onChange($event)"
+                  #formbuilder
+                  [form]="form.serviceform.schema"
+                ></form-builder> -->
               </nb-card-body>
             </nb-card>
           </div>
