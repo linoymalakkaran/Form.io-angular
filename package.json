@@ -35,7 +35,7 @@
     "@babel/compat-data": "^7.10.4",
     "@nebular/auth": "^5.1.0",
     "@nebular/eva-icons": "4.1.2",
-    "@nebular/security": "4.1.2",
+    "@nebular/security": "^5.1.0",
     "@nebular/theme": "^5.1.0",
     "adm-zip": "^0.4.16",
     "angular-formio": "^4.9.0",
