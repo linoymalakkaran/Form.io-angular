@@ -5,8 +5,8 @@ import { of as observableOf } from 'rxjs';
 
 import { AnalyticsService } from './utils';
 import { UserData } from './data/users';
-import { UserService } from './mock/users.service';
-import { MockDataModule } from './mock/mock-data.module';
+import { UserService } from './page_core_services/users.service';
+import { MockDataModule } from './page_core_services/mock-data.module';
 
 const DATA_SERVICES = [
   { provide: UserData, useClass: UserService },

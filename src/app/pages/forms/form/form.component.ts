@@ -1,6 +1,6 @@
 import { Component, ViewChild, TemplateRef } from '@angular/core';
 import { FormApp } from '../../../@core/data/formapp';
-import { ServiceFormService } from '../../../@core/mock/formapp.service';
+import { ServiceFormService } from '../../../@core/page_core_services/formapp.service';
 import { ActivatedRoute } from '@angular/router';
 import { FormioUtils, FormBuilderComponent } from 'angular-formio';
 import { NbWindowService } from '@nebular/theme';

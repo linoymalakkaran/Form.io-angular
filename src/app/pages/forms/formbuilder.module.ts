@@ -3,7 +3,7 @@ import { NbCardModule,NbButtonModule, NbInputModule, NbActionsModule, NbSelectMo
 import { ThemeModule } from '../../@theme/theme.module';
 import { FormsModule } from '@angular/forms';
 import { FormioModule,FormioAppConfig } from 'angular-formio';
-import { ServiceFormService } from '../../@core/mock/formapp.service';
+import { ServiceFormService } from '../../@core/page_core_services/formapp.service';
 import { ServiceFormComponent } from './form/form.component';
 import { ServiceFormBuilderComponent } from './formbuilder.component';
 
