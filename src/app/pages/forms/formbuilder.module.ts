@@ -28,7 +28,7 @@ import { ServiceFormBuilderComponent } from './formbuilder.component';
   ],
   providers: [
     ServiceFormService,
-    { provide: FormioAppConfig },
+    { provide: FormioAppConfig, useValue: undefined },
   ]
 })
 export class ServiceFormBuilderModule { }

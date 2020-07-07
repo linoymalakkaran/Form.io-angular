@@ -1,7 +1,8 @@
 import { RoleData, Role } from '../data/role';
 import { RestProvider } from './rest.service';
-import { Inject } from '@angular/core';
+import { Inject, Injectable } from '@angular/core';
 
+@Injectable()
 export class RoleService extends RoleData {
     roles:Role[];
     constructor(
