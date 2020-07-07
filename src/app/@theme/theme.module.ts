@@ -80,8 +80,8 @@ const PIPES = [
   declarations: [...COMPONENTS, ...PIPES],
 })
 export class ThemeModule {
-  static forRoot(): ModuleWithProviders {
-    return <ModuleWithProviders>{
+  static forRoot(): ModuleWithProviders<any> {
+    return <ModuleWithProviders<any>>{
       ngModule: ThemeModule,
       providers: [
         ...NbThemeModule.forRoot(

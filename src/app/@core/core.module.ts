@@ -39,8 +39,8 @@ export class CoreModule {
     
   }
 
-  static forRoot(): ModuleWithProviders {
-    return <ModuleWithProviders>{
+  static forRoot(): ModuleWithProviders<any> {
+    return <ModuleWithProviders<any>>{
       ngModule: CoreModule,
       providers: [
         ...NB_CORE_PROVIDERS,
