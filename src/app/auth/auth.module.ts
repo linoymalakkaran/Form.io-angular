@@ -16,3 +16,7 @@ import { SharedModule } from '../shared/shared.module';
   ]
 })
 export class AuthModule {}
+
+let spinnerElm = document.getElementById('nb-global-spinner');
+spinnerElm.style.display = "none";
+

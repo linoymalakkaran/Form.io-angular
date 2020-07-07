@@ -13,12 +13,11 @@ import { ServiceFormBuilderModule } from './forms/formbuilder.module';
     ThemeModule,
     NbMenuModule,
     NbWindowModule.forChild(),
-    ServiceFormBuilderModule,    
-    
+    ServiceFormBuilderModule,
   ],
   declarations: [
     PagesComponent
-  ], 
+  ],
 })
 export class PagesModule {
 }
